@@ -1,0 +1,305 @@
+{
+  "briefing": {
+    "concept": {
+      "label": "Concept of the day: stagflation",
+      "text": "Stagflation means weak economic growth combined with high inflation, a tough mix because central banks cannot easily fix both. For example, if oil prices spike, firms face higher costs and cut hiring, but raising interest rates to fight prices could slow the economy even more."
+    },
+    "date": "Thursday 15 October 2026",
+    "fact": {
+      "label": "Fact of the day",
+      "text": "A bond's yield moves in the opposite direction to its price. When investors sell bonds, prices fall and the yield, the return for new buyers, rises."
+    },
+    "intro": "Five things moving the global economy today, and why they matter to you. Researched and written by Claude from news coverage each morning.",
+    "items": [
+      {
+        "headline": "Oil stays above $100 after attacks on Saudi Arabia",
+        "story": 0,
+        "what": "Brent crude traded around $104 to $107 a barrel as Houthi strikes and tanker attacks raised supply fears.",
+        "why": "Pricey oil lifts what you pay for fuel, flights and delivered goods."
+      },
+      {
+        "headline": "US inflation jumps to 3.7%",
+        "story": 1,
+        "what": "Consumer prices rose 3.7% in the year to September, and the Fed could raise rates again on 28 October.",
+        "why": "Higher interest rates make student loans, car loans and credit cards costlier."
+      },
+      {
+        "headline": "Bond yields hit their highest since 2002",
+        "story": 2,
+        "what": "The US 10-year yield touched about 5.37% on 7 October, even as stocks stayed near records.",
+        "why": "Higher yields push up mortgage and loan rates you will face when you borrow."
+      },
+      {
+        "headline": "IMF projects 3.1% world growth",
+        "story": 3,
+        "what": "The Fund sees 3.4% in 2027 but warns that energy shocks and trade tensions are risks.",
+        "why": "Slower global growth means fewer jobs and internships in trade-heavy industries."
+      },
+      {
+        "headline": "EU and China strike an interim trade deal",
+        "story": 4,
+        "what": "It includes lower tariffs on some European goods and steps to stabilise rare earth supplies.",
+        "why": "Trade deals shape prices of electronics and cars, and the jobs that make them."
+      }
+    ],
+    "number": {
+      "label": "Number of the day",
+      "text": "US consumer prices in September were 3.7% higher than a year earlier, up from 3.4% in August, according to the Bureau of Labor Statistics data reported by CBS News.",
+      "value": "3.7%"
+    },
+    "watch": [
+      {
+        "date": "Today",
+        "label": "UK GDP data"
+      },
+      {
+        "date": "28 Oct",
+        "label": "Federal Reserve rate decision"
+      },
+      {
+        "date": "29 Oct",
+        "label": "European Central Bank rate decision"
+      },
+      {
+        "date": "3 Nov",
+        "label": "US midterm elections"
+      }
+    ]
+  },
+  "news": {
+    "asOf": "15 October 2026",
+    "stories": [
+      {
+        "context": "A Middle East conflict involving Iran has disrupted shipping through the Strait of Hormuz, a key route for oil and gas. Brent crude settled at about $105.69 on 13 October and traded near $106.67 on the morning of 15 October. Houthi strikes on Saudi Arabia on 14 October damaged Saudi Aramco facilities and raised concern about the security of oil infrastructure. The IMF assumes an average oil price of about $95.74 a barrel for 2026 and that Hormuz shipments resume around March 2027.",
+        "focus": [
+          "Saudi Arabia",
+          "China",
+          "India",
+          "Japan"
+        ],
+        "headline": "Oil holds above $100 as Gulf attacks threaten supply",
+        "region": "Middle East",
+        "sources": [
+          [
+            "Fortune",
+            "https://fortune.com/article/price-of-oil-10-15-2026/"
+          ],
+          [
+            "Sunday Guardian",
+            "https://sundayguardianlive.com/world/crude-oil-prices-today-october-14-why-are-oil-prices-rising-today-brent-crude-hits-10658-as-saudi-aramco-attack-and-strait-of-hormuz-risks-offset-hopes-of-higher-russian-diesel-exports-305338"
+          ]
+        ],
+        "summary": "Brent crude traded around $104 to $107 a barrel on 14 and 15 October. Houthi strikes on Saudi Arabia and tanker attacks near the Strait of Hormuz keep supply fears high, while hopes of more Russian diesel exports limit the gains.",
+        "theme": "Energy",
+        "whatIf": "Brent crude climbs above $120 a barrel after another attack on Gulf oil infrastructure"
+      },
+      {
+        "context": "The US consumer price index report for September was released on 14 October 2026. Headline inflation accelerated to 3.7% a year from 3.4% in August, driven largely by energy prices tied to the Middle East conflict. In September the Federal Reserve raised its target range by 0.25 percentage points to 3.75% to 4.00%, its first hike in three years. Sources disagree on the odds of an October hike, with one putting it near 43% and others expecting a move in December. The next Fed meeting is 27 to 28 October.",
+        "focus": [
+          "United States",
+          "Mexico",
+          "Japan"
+        ],
+        "headline": "US inflation rises to 3.7% as energy costs surge",
+        "region": "United States",
+        "sources": [
+          [
+            "CBS News",
+            "https://www.cbsnews.com/news/september-cpi-report-inflation-energy-costs/"
+          ],
+          [
+            "Invezz",
+            "https://invezz.com/news/2026/10/14/us-cpi-data-comes-hotter-than-expected-will-fed-hike-rates-in-october-or-december/"
+          ],
+          [
+            "Forbes",
+            "https://www.forbes.com/sites/simonmoore/2026/10/15/accelerating-cpi-inflation-raises-prospect-of-further-fed-rate-hikes/"
+          ]
+        ],
+        "summary": "US consumer prices rose 3.7% in the year to September, up from 3.4% in August. Core inflation, which strips out food and energy, was 2.6%, above forecasts. Markets now see a real chance the Fed raises rates again on 28 October.",
+        "theme": "Central banks",
+        "whatIf": "the Federal Reserve raises interest rates by another 0.25 percentage points on 28 October"
+      },
+      {
+        "context": "A bond yield is the return investors earn on a government bond, and it rises when bond prices fall. The US 10-year yield touched a multi-decade high in early October 2026, and the 30-year yield also reached its highest since 2002. One automated monthly report put the 10-year near 5.29% later in the month, so exact levels vary by source. The S&P 500 closed at about 7,807 on 12 October after record highs on 6 October. High yields raise borrowing costs for the US government, companies and mortgage holders.",
+        "focus": [
+          "United States",
+          "Japan",
+          "United Kingdom"
+        ],
+        "headline": "Bond yields hit highest since 2002 while stocks sit near records",
+        "region": "United States",
+        "sources": [
+          [
+            "Yahoo Finance",
+            "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-october-7-dow-sp-500-nasdaq-080241833.html"
+          ],
+          [
+            "Meta Trading Club",
+            "https://www.metatradingclub.com/2026/10/12/"
+          ]
+        ],
+        "summary": "The 10-year US Treasury yield reached about 5.37% on 7 October, its highest since 2002, before easing. US stocks still hit record highs earlier in the month, with the S&P 500 near 7,800.",
+        "theme": "Markets",
+        "whatIf": "the 10-year Treasury yield rises above 5.5% and pulls stock prices down"
+      },
+      {
+        "context": "The IMF published its October 2026 World Economic Outlook during its annual meetings with the World Bank. It projects US growth of 2.3% in 2026, China at 4.5%, and the euro area at 1.1%. Advanced economies are forecast to grow 2.1% and emerging economies 3.7% this year. Forecasts assume oil and gas shipments through Hormuz resume around March and that the AI investment boom moderates. Reports differ on whether the 2026 figure was revised from April or July.",
+        "focus": [
+          "United States",
+          "China",
+          "European Union",
+          "India"
+        ],
+        "headline": "IMF sees global growth of 3.1% this year and 3.4% next",
+        "region": "Global",
+        "sources": [
+          [
+            "Fortune",
+            "https://fortune.com/2026/10/13/imf-global-growth-forecast-2026-ai-economic-divide/"
+          ],
+          [
+            "MAS Economics",
+            "https://maseconomics.com/imf-world-economic-outlook-october-2026/"
+          ]
+        ],
+        "summary": "The IMF's October outlook, released 13 October in Bangkok, projects 3.1% world growth in 2026 and 3.4% in 2027. It sees global inflation of 4.7% this year and warns that energy disruption, trade tension and high debt could weaken activity.",
+        "theme": "Growth",
+        "whatIf": "the Strait of Hormuz stays closed past March and global growth in 2027 falls well short of the IMF's 3.4%"
+      },
+      {
+        "context": "EU trade commissioner Maros Sefcovic announced the interim deal around 9 October 2026. Rare earths are minerals used in electronics, motors and batteries, and China dominates their supply. Separately, after a Trump-Xi meeting the US and China released lists of products for possible tariff cuts, with 1,619 Chinese categories for US goods and 77 US categories for Chinese goods. Neither side has said how deep the cuts will be or when they start.",
+        "focus": [
+          "China",
+          "Germany",
+          "France",
+          "European Union"
+        ],
+        "headline": "EU and China agree an interim trade deal",
+        "region": "Europe",
+        "sources": [
+          [
+            "Washington Times (AP)",
+            "https://www.washingtontimes.com/news/2026/oct/9/eu-envoy-eu-china-strike-interim-trade-deal-could-cut-chinese-hybrid/"
+          ],
+          [
+            "PBS NewsHour",
+            "https://www.pbs.org/newshour/world/u-s-and-china-release-product-lists-for-tariff-cuts-after-trump-xi-meeting"
+          ]
+        ],
+        "summary": "The EU's trade chief says the two sides reached a preliminary agreement that includes lower tariffs on some European goods and steps to stabilise rare earth supplies. Details are thin, and it could also curb Chinese hybrid car exports.",
+        "theme": "Trade",
+        "whatIf": "the EU and China publish the full terms of their interim deal and cut tariffs on cars"
+      },
+      {
+        "context": "The Bank of Japan has been raising interest rates gradually, and Bloomberg-sourced reports say policymakers lean against back-to-back hikes this month. A weak yen makes Japanese exports cheaper but raises the cost of imported energy and food. The euro was near 1.12 dollars and the pound near 1.33 dollars on 14 October. Japan's government can sell dollars to support the yen, which markets call intervention.",
+        "focus": [
+          "Japan",
+          "United States",
+          "Germany"
+        ],
+        "headline": "Yen stays weak near 158 per dollar as BoJ weighs next hike",
+        "region": "Japan",
+        "sources": [
+          [
+            "Capital Street FX",
+            "https://www.capitalstreetfx.com/market-analysis/dollar-eases-18-month-high-cpi-14-oct-2026/"
+          ],
+          [
+            "FXStreet",
+            "https://www.fxstreet.com/news/euro-declines-as-boj-tightening-bets-eurozone-stagflation-risks-bolster-japanese-yen-202610130932"
+          ]
+        ],
+        "summary": "The dollar bought about 158.3 yen on 14 October, and traders see intervention risk capping the move. Swaps price only about a 10% chance of a Bank of Japan hike this month but around 88% by December.",
+        "theme": "Currencies",
+        "whatIf": "the Bank of Japan raises rates in December and the yen strengthens sharply against the dollar"
+      },
+      {
+        "context": "German inflation accelerated to 3.3% in September 2026, and high oil prices raise worries about stagflation, meaning weak growth with high inflation. Political uncertainty in France also weighs on the euro. Goldman Sachs forecast in September that the Bank of England would raise rates by 0.25 percentage points in November. Traders then priced in about 47 basis points of BoE hikes by year-end. UK GDP data were due on 15 October.",
+        "focus": [
+          "United Kingdom",
+          "Germany",
+          "France",
+          "European Union"
+        ],
+        "headline": "ECB expected to hold while Bank of England leans toward a hike",
+        "region": "Europe",
+        "sources": [
+          [
+            "Marc to Market",
+            "https://www.marctomarket.com/2026/10/week-ahead-firm-us-cpi-and-unresolved.html"
+          ],
+          [
+            "Kitco (Reuters)",
+            "https://www.kitco.com/news/off-the-wire/2026-09-14/goldman-sachs-sees-boe-rate-hike-november-amid-inflation-concerns"
+          ]
+        ],
+        "summary": "Markets give the European Central Bank roughly a 20% chance of raising rates on 29 October, so a hold is the base case. The Bank of England has held at 3.75% but is widely expected to hike in November as inflation stays high.",
+        "theme": "Central banks",
+        "whatIf": "the Bank of England raises its rate above 3.75% in November while the ECB holds"
+      },
+      {
+        "context": "China's August 2026 exports rose 25% from a year earlier and imports rose 28.2%, giving a monthly surplus of about $119.1 billion. The surplus for the first eight months reached about $805.5 billion. Analysts link the strength to global AI investment, which boosts demand for chips and electronic parts. Low consumer inflation alongside high producer prices shows weak household demand. I could not confirm China's September trade figures.",
+        "focus": [
+          "China",
+          "United States",
+          "Germany",
+          "Vietnam"
+        ],
+        "headline": "China's consumer prices stay flat while exports boom",
+        "region": "China",
+        "sources": [
+          [
+            "Marc to Market",
+            "https://www.marctomarket.com/2026/10/week-ahead-firm-us-cpi-and-unresolved.html"
+          ],
+          [
+            "TrendForce",
+            "https://datatrack.trendforce.com/blog/content/63807/chinas-q3-2026-trade-surplus-climbs-to-usd-119085-billion-surging-exports-driven-by-ai-demand-and-front-loading-effects"
+          ]
+        ],
+        "summary": "China's consumer prices rose 0.9% in the year to September, slightly below forecasts, while producer prices rose 5.0%, above forecasts. Exports grew 25% in August and the trade surplus is widening.",
+        "theme": "Growth",
+        "whatIf": "China's exports keep growing above 20% while domestic consumer prices stay close to zero"
+      },
+      {
+        "context": "US fuel prices are politically sensitive ahead of the 3 November 2026 midterm elections. Diesel powers trucks, farm equipment and ships, so its price feeds into the cost of many goods. Oil trading reports on 14 October said hopes of higher Russian diesel exports offset Gulf supply fears. I could not independently confirm the details of any US policy decision, so treat this as market reporting rather than an announced plan.",
+        "focus": [
+          "United States",
+          "Russia",
+          "European Union"
+        ],
+        "headline": "US hopes for Russian diesel to ease fuel prices before the midterms",
+        "region": "United States",
+        "sources": [
+          [
+            "Sunday Guardian",
+            "https://sundayguardianlive.com/world/crude-oil-prices-today-october-14-why-are-oil-prices-rising-today-brent-crude-hits-10658-as-saudi-aramco-attack-and-strait-of-hormuz-risks-offset-hopes-of-higher-russian-diesel-exports-305338"
+          ]
+        ],
+        "summary": "Reports say expected higher Russian diesel exports are a factor holding back oil prices, as Washington looks to ease fuel costs ahead of the 3 November midterm elections. Diesel remains expensive because of the Gulf disruption.",
+        "theme": "Policy",
+        "whatIf": "the US formally allows large purchases of Russian diesel to bring down pump prices"
+      }
+    ],
+    "upcoming": [
+      {
+        "date": "28 Oct",
+        "label": "Federal Reserve rate decision"
+      },
+      {
+        "date": "29 Oct",
+        "label": "European Central Bank rate decision"
+      },
+      {
+        "date": "3 Nov",
+        "label": "US midterm elections"
+      },
+      {
+        "date": "Nov",
+        "label": "Bank of England meeting, where a rate hike is widely expected"
+      }
+    ]
+  },
+  "updatedAt": "2026-10-15T22:30:00Z"
+}

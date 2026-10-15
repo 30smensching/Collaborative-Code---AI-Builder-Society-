@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ripple Effect Mapper</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/cytoscape@3.30.2/dist/cytoscape.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dagre@0.8.5/dist/dagre.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/cytoscape-dagre@2.5.0/cytoscape-dagre.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <h1>Ripple Effect Mapper</h1>
+      <p class="tagline">Describe a real-world event and see how it spreads through industries, companies, and countries.</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="card ask">
+      <form id="ask-form">
+        <label for="event" class="label">What happens if…</label>
+        <textarea id="event" rows="3" maxlength="2000" required
+          placeholder="e.g. the US imposes a 25% tariff on imported semiconductors"></textarea>
+
+        <div class="examples" id="examples" aria-label="Example questions"></div>
+
+        <label for="country-input" class="label">Focus countries <span class="hint">(optional, up to 8)</span></label>
+        <div class="country-picker">
+          <div id="country-chips" class="chips"></div>
+          <input id="country-input" list="country-list" placeholder="Type a country and press Enter" autocomplete="off">
+          <datalist id="country-list"></datalist>
+        </div>
+
+        <div class="actions">
+          <button type="submit" id="submit">Map the ripple effects</button>
+          <span class="hint">Analysis takes about a minute.</span>
+        </div>
+      </form>
+
+      <details id="history-box" class="history" hidden>
+        <summary>Recent analyses</summary>
+        <ul id="history"></ul>
+      </details>
+    </section>
+
+    <section id="loading" class="card loading" hidden>
+      <div class="spinner" aria-hidden="true"></div>
+      <div>
+        <p id="loading-text">Tracing the chain reaction…</p>
+        <p class="hint"><span id="elapsed">0</span>s elapsed</p>
+      </div>
+    </section>
+
+    <section id="error" class="card error" role="alert" hidden></section>
+
+    <section id="results" hidden>
+      <div class="card">
+        <h2 id="r-title"></h2>
+        <p id="r-summary" class="summary"></p>
+        <details>
+          <summary>Assumptions</summary>
+          <ul id="r-assumptions"></ul>
+        </details>
+      </div>
+
+      <nav class="tabs" role="tablist">
+        <button role="tab" data-tab="graph" aria-selected="true">Cause &amp; effect</button>
+        <button role="tab" data-tab="players" aria-selected="false">Winners &amp; losers</button>
+        <button role="tab" data-tab="scenarios" aria-selected="false">Scenarios</button>
+        <button role="tab" data-tab="countries" aria-selected="false">Countries</button>
+      </nav>
+
+      <div class="tab-panel" data-panel="graph">
+        <div class="card graph-card">
+          <div class="toolbar">
+            <label>Country
+              <select id="country-filter"><option value="">All countries</option></select>
+            </label>
+            <label>Show
+              <select id="order-filter">
+                <option value="99">All steps</option>
+                <option value="1">Direct effects only</option>
+                <option value="2">Up to 2nd-order</option>
+                <option value="3">Up to 3rd-order</option>
+              </select>
+            </label>
+            <button type="button" id="fit" class="secondary">Reset view</button>
+          </div>
+          <div class="graph-layout">
+            <div id="cy" aria-label="Cause and effect graph"></div>
+            <aside id="detail" class="detail">
+              <p class="hint">Click a box to see what causes it and what it leads to. Its downstream chain is highlighted.</p>
+            </aside>
+          </div>
+          <div class="legend">
+            <span><i class="sw positive"></i>Helps</span>
+            <span><i class="sw negative"></i>Hurts</span>
+            <span><i class="sw mixed"></i>Mixed</span>
+            <span><i class="sw uncertain"></i>Uncertain</span>
+            <span><i class="ln solid"></i>Likely</span>
+            <span><i class="ln dashed"></i>Possible</span>
+            <span><i class="ln dotted"></i>Speculative</span>
+            <span class="hint">Bigger box = bigger impact</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3>The chain, step by step</h3>
+          <ol id="chain-steps" class="chain-steps"></ol>
+        </div>
+      </div>
+
+      <div class="tab-panel" data-panel="players" hidden>
+        <div class="two-col">
+          <div class="card"><h3 class="win">Winners</h3><ul id="winners" class="players"></ul></div>
+          <div class="card"><h3 class="lose">Losers</h3><ul id="losers" class="players"></ul></div>
+        </div>
+      </div>
+
+      <div class="tab-panel" data-panel="scenarios" hidden>
+        <div id="scenarios" class="three-col"></div>
+        <div class="card">
+          <h3>Signposts to watch</h3>
+          <ul id="signposts"></ul>
+        </div>
+      </div>
+
+      <div class="tab-panel" data-panel="countries" hidden>
+        <p class="hint">Add a country above and re-run to dig deeper into it, or use “Show in graph” to filter the chain.</p>
+        <div id="countries" class="country-grid"></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="/static/countries.js"></script>
+  <script src="/static/app.js"></script>
+</body>
+</html>
